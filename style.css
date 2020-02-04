@@ -2,7 +2,7 @@ nav {
     display: flexbox;
     background: rgb(156, 214, 230);
     font-size: 20px;
-    border-radius: 13px;
+    border-radius: 2%;
     font-family: Comfortaa;
     align-items: center;
 }
@@ -23,23 +23,25 @@ body {
 
 p {
     font-size: 18px;
+    line-height: 25px;
 }
 
 div {
     position: fixed;
-    left: 8.5%;
+    left: 50%;
+    margin-left: -640px;
 }
 
 .top:visited,
 .top:link {
-    color: green;
     text-decoration: none;
-    background-color: #f44336;
+    background-color: rgba(208, 143, 170);
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 4%;
 }
 
 #pp {

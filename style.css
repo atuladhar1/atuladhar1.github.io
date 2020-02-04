@@ -1,40 +1,47 @@
-body {
-    /* background-image: url("https://cdn.supadupa.me/shop/12506/images/3065509/rick_and_morty_evil_morty_collectors_enamel_lapel_pin_massive.jpg?1563212267"); */
-    text-align: center;
-}
-
-img {
-    margin: 20px 200px;
-}
-
-.par {
-    display: inline;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-    color: gray;
-    font-size: 22px;
-}
-
-.heading {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 nav {
-    font-family: 'Comfortaa', cursive;
-    font-size: 25px;
-    background-color: rgb(67, 238, 238);
-    padding: 25px;
-    border-spacing: 30px 20px;
-    text-align: center;
-}
-
-#navigate {
-    margin: auto 40px;
-    padding: 0px 50px;
-    text-align: center;
+    display: flexbox;
+    background: rgb(156, 214, 230);
+    font-size: 20px;
+    border-radius: 13px;
+    font-family: Comfortaa;
+    align-items: center;
 }
 
 .top {
-    margin: auto 30px;
+    margin: 10px 20px;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background: rgb(204, 255, 255);
+}
+
+.heading {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+div {
+    position: fixed;
+    left: 8.5%;
+}
+
+.top:visited,
+.top:link {
+    color: green;
+    text-decoration: none;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#pp {
+    margin-top: 70px;
 }

@@ -1,10 +1,9 @@
 body {
     /* background-image: url("https://cdn.supadupa.me/shop/12506/images/3065509/rick_and_morty_evil_morty_collectors_enamel_lapel_pin_massive.jpg?1563212267"); */
-    margin: 20px auto;
-
+    text-align: center;
 }
 
-img{
+img {
     margin: 20px 200px;
 }
 
@@ -15,26 +14,27 @@ img{
     font-size: 22px;
 }
 
-.head {
+.heading {
     text-align: center;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
-    display: inline;
-    text-align: center;
-    margin:30px auto;
-    size: 20px auto;
-}
-
-div{
-    text-align: center;
-}
-
-#navigate{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-    margin: 20px 40px;
     background-color: rgb(67, 238, 238);
+    padding: 25px;
+    border-spacing: 30px 20px;
+    text-align: center;
+}
+
+#navigate {
+    margin: auto 40px;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.top {
+    margin: auto 30px;
 }

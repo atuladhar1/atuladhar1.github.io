@@ -3,7 +3,7 @@ nav {
     font-size: 20px;
     border-radius: 2%;
     font-family: Comfortaa;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .top {
@@ -11,7 +11,7 @@ nav {
 }
 
 body {
-    margin: 0px 100px;
+    margin: 0px;
     text-align: center;
     background: rgb(103, 193, 193);
 }
@@ -22,13 +22,16 @@ body {
 }
 
 p {
+    margin-left: 120px;
     font-size: 18px;
     line-height: 30px;
     font-family: "Acme", sans-serif;
 }
 
-div {
+#navi-container {
     position: fixed;
+    align-content: center;
+    width: 100%;
 }
 
 .top:visited,

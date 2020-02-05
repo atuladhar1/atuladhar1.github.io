@@ -19,24 +19,26 @@ body {
 
 .heading {
     font-size: 40px;
+    font-family: "Sigmar One", cursive;
 }
 
 p {
     font-size: 18px;
     line-height: 25px;
+    font-family: "Acme", sans-serif;
 }
 
 div {
     position: fixed;
     left: 50%;
-    margin-left: -640px;
+    margin-left: -675px;
 }
 
 .top:visited,
 .top:link {
     text-decoration: none;
-    background-color: rgba(208, 143, 170);
-    color: white;
+    color: rgb(156, 214, 230);
+    background-color: rgb(255, 132, 0);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -46,4 +48,12 @@ div {
 
 #pp {
     margin-top: 70px;
+}
+
+.inbody:visited,
+.inbody:link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
 }

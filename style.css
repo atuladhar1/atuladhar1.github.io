@@ -12,9 +12,9 @@ nav {
 }
 
 body {
-    margin: 0px;
+    margin: 0px 100px;
     text-align: center;
-    background: rgb(204, 255, 255);
+    background: rgb(103, 193, 193);
 }
 
 .heading {
@@ -24,7 +24,7 @@ body {
 
 p {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
     font-family: "Acme", sans-serif;
 }
 
@@ -37,8 +37,8 @@ div {
 .top:visited,
 .top:link {
     text-decoration: none;
-    color: rgb(156, 214, 230);
-    background-color: rgb(255, 132, 0);
+    color: rgb(46, 43, 137);
+    background-color: rgb(62, 176, 225);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;

@@ -1,4 +1,4 @@
-const url = "https://api.opendota.com/api/players/250311977/recentMatches?api_key=250311977";
+const url = "https://api.opendota.com/api/players/250311977/recentMatches";
 
 function Get(url) {
     var httpreq = new XMLHttpRequest();

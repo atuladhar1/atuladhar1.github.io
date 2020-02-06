@@ -1,9 +1,8 @@
 nav {
     background: rgb(156, 214, 230);
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 2%;
     font-family: Comfortaa;
-    /* align-items: center; */
 }
 
 .top {
@@ -73,5 +72,25 @@ footer {
     font-weight: bold;
     text-align: center;
     font-size: 16px;
-    margin: 100px 80px;
+    padding: 20px 100px;
+    margin-top: 10px;
+    color: rgb(56, 20, 20);
+    background: rgb(64, 184, 156);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    font-family: 'Open Sans', sans-serif
+}
+
+.th {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px 20px;
 }

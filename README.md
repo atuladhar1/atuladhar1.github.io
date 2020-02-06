@@ -1,1 +1,1 @@
-A simple website using only CSS and HTML. This website is a homework assignment for Web Development class.
+A simple website using only CSS, Javascript and HTML. This website is a homework assignment for Web Development class. Also implemented the OpenDOTA API to generate pervious match data.
